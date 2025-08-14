@@ -105,11 +105,21 @@ body {
 .task-btn.check {
   background-color: #28a745;
   color: white;
+  transition: background-color 0.3s;
+}
+
+.task-btn.check:hover{
+  background-color:#45f06d ;
 }
 
 .task-btn.delete {
   background-color: #dc3545;
   color: white;
+  transition: background-color 0.3s;
+}
+
+.task-btn.delete:hover{
+  background-color:#cf1325 ;
 }
 
 
